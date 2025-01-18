@@ -1,9 +1,0 @@
-.revolution-flag {
-  height: 1em;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.revolution-flag.twitter-flag {
-  height: 1.2em; /* Slightly larger for Twitter */
-} 
