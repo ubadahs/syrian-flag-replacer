@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Syrian Flag Replacer",
+  "version": "1.0",
+  "description": "Replaces the old regime flag with the flag of the Syrian revolution.",
+  "author": "Ubadah Sabbagh",
+  "homepage_url": "https://ubadahsabbagh.com",
+  
+  "permissions": [
+    "storage"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["flagReplacer.js"],
+    "css": ["styles.css"],
+    "run_at": "document_start",
+    "all_frames": true,
+    "match_about_blank": true
+  }],
+
+  "web_accessible_resources": [{
+    "resources": ["revolution-flag.png"],
+    "matches": ["<all_urls>"]
+  }],
+
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+} 
