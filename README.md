@@ -8,7 +8,7 @@ While Syria's future governance remains to be determined at the time of this ext
 
 ## What It Does
 
-This extension automatically replaces any instance of the old regime flag (🇸🇾) with the revolution flag across all websites, including:
+This extension automatically replaces any instance of the old regime flag () with the revolution flag across all websites, including:
 - Social media (Twitter/X, Bluesky, etc.)
 - News websites
 - Any other webpage
@@ -17,6 +17,8 @@ This extension automatically replaces any instance of the old regime flag (🇸�
 [Arabic instructions for install] تعليمات التثبيت بالعربي ([link](https://ubadahsabbagh.com/ar/flag.html))
 
 ### Firefox Users
+The easiest way is here: [https://addons.mozilla.org/en-US/firefox/addon/syrian-flag-replacer/](https://addons.mozilla.org/en-US/firefox/addon/syrian-flag-replacer/)
+Alternatively: 
 1. Extract/unzip the `firefox.zip` file you downloaded
 2. Open Firefox and type `about:debugging` in the address bar
 3. Click "This Firefox" in the left sidebar
